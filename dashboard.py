@@ -4,7 +4,6 @@ import seaborn as sb
 import streamlit as st
 
 #import data
-all_df = pd.read_csv("all_data.csv")
 groupByStation_df = pd.read_csv("groupbystation.csv")
 groupByYear_df = pd.read_csv("groupbyyear.csv")
 
